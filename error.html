@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon"/>
+    <title>Quero comprar um imóvel</title>
+</head>
+
+<body>
+    <div class="erro red white-text center"><p>As senhas digitadas não conferem, tente novamente.</p></div>
+    <div class="container">
+        <div class="row">
+            <div class="cadastro-img col s12 l6"></div>
+            <h1 class="center yellow-text text-darken-3 col l6">Faça seu
+                <span class="purple-text text-darken-4">cadastro</span>
+            </h1>
+            <form action="PHP/cadastro.php" method="post" class="col s12 l6">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input name="nome" id="first_name" type="text" class="validate" required>
+                        <label for="first_name">Nome</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input name="sobrenome" id="last_name" type="text" class="validate" required>
+                        <label for="last_name">Sobrenome</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input name="senha" id="password" type="password" class="validate" required>
+                        <label for="password">Senha</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input name="confirmation" id="confirmation" type="password" class="validate" required>
+                        <label for="confirmation">Confirme a senha</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input name="email" id="email" type="email" class="validate" required>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="center">
+                            <button type="submit" class="yellow darken-3 white-text waves-effect waves-light btn btn-large">Cadastrar</button>
+                        </div>
+                </div>
+        </div>
+    </div>
+    </div>
+    </form>
+    </div>
+    <section class="call-action yellow darken-3">
+        <div class="container">
+            <h3 class="center white-text">Já tem cadastro?
+                <a href="login.html">Faça o login</a> para sua conta</h3>
+        </div>
+    </section>
+    <section class="features grey lighten-5">
+        <div class="row container">
+            <ul class="col s12 l6">
+                <li>
+                    <div class="row">
+                        <i class="fas fa-home fa-7x col s12 l6 yellow-text text-darken-3"></i>
+                        <p class="col s12 l6 purple-text text-darken-4">Duis et orci vel tellus pharetra varius. Nulla blandit viverra nibh, id consectetur dolor dapibus
+                            eu.</p>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="row">
+                        <i class="fas fa-lock fa-7x col s12 l6 yellow-text text-darken-3"></i>
+                        <p class="col s12 l6 purple-text text-darken-4">Duis et orci vel tellus pharetra varius. Nulla blandit viverra nibh, id consectetur dolor dapibus
+                            eu.</p>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="row">
+                        <i class="fas fa-comments fa-7x col s12 l6 yellow-text text-darken-3"></i>
+                        <p class="col s12 l6 purple-text text-darken-4">Duis et orci vel tellus pharetra varius. Nulla blandit viverra nibh, id consectetur dolor dapibus
+                            eu.</p>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="row">
+                        <i class="fas fa-briefcase fa-7x col s12 l6 yellow-text text-darken-3"></i>
+                        <p class="col s12 l6 purple-text text-darken-4">Duis et orci vel tellus pharetra varius. Nulla blandit viverra nibh, id consectetur dolor dapibus
+                            eu.</p>
+                    </div>
+
+                </li>
+            </ul>
+            <ul class="col s12 l6">
+                    <li>
+                        <div class="row">
+                            <i class="fas fa-building fa-7x col s12 l6 yellow-text text-darken-3"></i>
+                            <p class="col s12 l6 purple-text text-darken-4">Duis et orci vel tellus pharetra varius. Nulla blandit viverra nibh, id consectetur dolor dapibus
+                                eu.</p>
+                        </div>
+    
+                    </li>
+                    <li>
+                        <div class="row">
+                            <i class="fas fa-check-circle fa-7x col s12 l6 yellow-text text-darken-3"></i>
+                            <p class="col s12 l6 purple-text text-darken-4">Duis et orci vel tellus pharetra varius. Nulla blandit viverra nibh, id consectetur dolor dapibus
+                                eu.</p>
+                        </div>
+    
+                    </li>
+                    <li>
+                        <div class="row">
+                            <i class="fas fa-th-list fa-7x col s12 l6 yellow-text text-darken-3"></i>
+                            <p class="col s12 l6 purple-text text-darken-4">Duis et orci vel tellus pharetra varius. Nulla blandit viverra nibh, id consectetur dolor dapibus
+                                eu.</p>
+                        </div>
+    
+                    </li>
+                    <li>
+                        <div class="row">
+                            <i class="far fa-compass fa-7x col s12 l6 yellow-text text-darken-3"></i>
+                            <p class="col s12 l6 purple-text text-darken-4">Duis et orci vel tellus pharetra varius. Nulla blandit viverra nibh, id consectetur dolor dapibus
+                                eu.</p>
+                        </div>
+    
+                    </li>
+                </ul>
+            
+        </div>
+    </section>
+    <footer class="page-footer purple darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright center">
+            <div class="container">
+                © 2018
+                <a href="http://cluemidiadigital.com.br">Clue Midia Digital</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</body>
+
+</html>

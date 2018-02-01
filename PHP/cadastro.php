@@ -10,9 +10,11 @@ $email = $_POST['email'];
 
 if($senha == $confirmation){
     $in = mysqli_query($conexao,"insert into user (nome, sobrenome, senha, email) values ('$nome','$sobrenome','$senha', '$email')") or die("Erro");
+    header('Location:../sucess.html');
+    
 
 }else{
-    echo "as senhas não são iguais";
+    header('Location:../error.html');
 }
 
 
