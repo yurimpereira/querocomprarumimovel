@@ -15,9 +15,9 @@ $sql = mysqli_query($conexao,"select * from user where email='".anti_sql_injecti
 $linhas = mysqli_num_rows($sql);
 if($linhas == '')
 	{
+		header("Location: ../login-error.html");
 		?>
-        <div class="msg2 padding20">Usuário não encontrado ou usuário e senha inválidos.</div>
-        <?PHP
+		<?php
 	}
 else
 	{
