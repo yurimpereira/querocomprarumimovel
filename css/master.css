@@ -25,6 +25,9 @@ h2, h3{
 .logo{
     padding: 5%;
 }
+a{
+    color: #4a148c;
+}
 .main{
     min-width: 100%;
     min-height: 100%;
@@ -83,13 +86,23 @@ h2, h3{
     height: 50px;
     margin: 5px;
 }
+.logo-top-horizontal{
+    height: 40px;
+    margin: 5px;
+}
 .pannel-btn{
     display: block;
-    padding: 10px;
-    margin-bottom: 5px;
+    padding: 5px;
+    margin-bottom: 2px;
 }
 .panel{
-    background: url("../images/bg-logado.png") center center no-repeat;
+    background: url("../images/bg-logado.png");
+}
+.selected{
+    color: #f9a825;
+}
+.chatpanel{
+    height: 440px;
 }
  @media screen and (min-width: 375px){
      .cadastro-img{
@@ -125,6 +138,14 @@ h2, h3{
    
 }
 @media screen and (min-width: 1024px) {
+
+    .desktop{
+        display: none;
+    }
+    .welcome-img{
+        background: url("../images/welcome-img.png")center center no-repeat;
+        height: 600px;
+    }
     .cadastro-img{
         background: url("../images/cadastro.png");
         background-size: cover;
@@ -136,14 +157,6 @@ h2, h3{
        h2, h3{
         font-size: 18pt;
     }
-    .pannel-btn{
-        display: block;
-        padding: 10px;
-        margin-bottom: 0;
-        margin-left:-10%;
-    }
-   
-
 }
 @media screen and (min-width: 1440px){
 

@@ -25,7 +25,10 @@ else
 			{
 				session_start();
 				$_SESSION['nome_session'] = $dados['nome'];
-				header("Location: conteudo.php");
+				$_SESSION['sobrenome_session'] = $dados['sobrenome'];
+				$_SESSION['email_session'] = $dados['email'];
+				$_SESSION['senha_session'] = $dados['senha'];
+				header("Location: user-panel.php");
 			}
 	}
 ?>
